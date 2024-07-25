@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+td{
+    border-radius: 10px;
+    border-radius: 50px;
+}
+.tabella{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#filtro{
+    height: 5vh;
+}
+.filtraggio{
+    display: flex;
+    flex-direction: column;
+}
+#bottone{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    height: 3vh;
+}
+#bottone:hover{
+    cursor: pointer;
+}
